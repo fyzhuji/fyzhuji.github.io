@@ -327,3 +327,11 @@ section.keeping-it-personal .product-content .pic img {
 .help_content img {
     max-width: 60%;
 }
+.help_client{
+    background-color: #eee;
+    border-radius: 2px;
+    color: #8590a6;
+    font-size: 13px;
+    padding: 15px;
+    border-left: 2px solid #1291ea;
+}
