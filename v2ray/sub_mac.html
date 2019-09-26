@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no,email=no,adress=no">
+<meta name="browsermode" content="application">
+<meta name="screen-orientation" content="portrait">
+<meta name="robots" content="all" />
+<meta name="google" content="all" />
+<meta name="googlebot" content="all" />
+<meta name="verify" content="all" />
+<title>枫叶主机帮助中心</title>
+<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css?rev=3.3.4">
+<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../static/style.css?rev=@@hash">
+</head>
+<body>
+<header class="main-header">
+    <div class="main-header-box">
+        
+        <div class="branding">
+        	<h2 class="text-hides">枫叶主机帮助中心</h2>
+            
+             
+    	</div>
+    </div>
+</header>
+<section id="main-content" class="container">
+	<div class="row">
+		<div class="col-lgs-12">
+			<ul class="breadcrumb">
+				<li><a href="../index.html"><i class="fa fa-home"></i> 帮助中心</a></li>
+				<li><a href="../v2ray.html">网络加速套餐帮助中心</a></li>
+				<li><a href="sub_mac.html">V2rayU for MAC 教程</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lgs-12">
+			<section class="panel">
+				<div class="panel-body help_content">
+					<div class="help_title"><span>一.下载客户端 V2rayU for MAC</span></div>
+					<div class="help_client">
+						<a href="https://help.fengye.la/res/v2rayu.dmg">https://help.fengye.la/res/v2rayu.dmg</a>
+					</div>
+					<p>在 Finder 中双击 V2rayU 打开宗卷，然后用 Finder 打开「应用程序」目录 <img src="../resimgs/mac-11.png" alt="安装 V2rayU" data-origin="../resimgs/mac-11.png" /></p>
+					<p>在 V2rayU 的宗卷中，用鼠标将 V2rayU 拖动到 Finder 的应用程序目录。</p>
+					<br />
+					
+					<p>由于 V2rayU 是未经 Apple 签名的应用程序，因此 macOS 可能会阻止运行此程序。</p>
+					<br />
+					<p><img src="../resimgs/mac-12.png" alt="安装 V2rayU" data-origin="../resimgs/mac-12.png" /></p>
+					<p>打开「系统偏好设置」-「安全性与隐私」，可以查看到你的 macOS 可能仅允许使用来自 App Store 或受信任开发者的应用程序。</p>
+					<p>打开「终端」。</p>
+					<p><img src="../resimgs/mac-13.png" alt="安装 V2rayU" data-origin="../resimgs/mac-13.png" /></p>
+					<p>在终端的窗口中输入如下指令，并按下回车键。</p>
+					<br />
+					<blockquote>
+					<p>sudo spctl --master-disable</p>
+					</blockquote>
+					<p>由于申请了 sudo 权限，需要输入你当前账户的密码，在 Shell 中输入密码是不可见的，只需要输入密码后按下回车即可。</p>
+					<p>再次访问「安全性与隐私」页面，将可以看到你的 macOS 已经允许「任何来源」的应用程序运行。</p>
+					<br />
+					<p><img src="../resimgs/v2-win-3.jpg" alt="安装 V2rayU" data-origin="../resimgs/v2-win-3.jpg" /></p>
+					<p>登录客户中心，点击 产品服务 -> 我的服务 点击套餐名称进入套餐详情页面。在「自动配置」功能区找到桌面平台 - 「节点订阅」。</p>
+					<br />
+					
+					<p>点击按钮后会自动复制订阅地址,弹出成功提示,然后开始配置客户端！</p>
+					
+					<div class="help_title"><span>二.配置 V2rayU 客户端</span></div>
+					<p>打开 V2rayU，打开后将会在状态栏上出现一个灰色的U型图标。</p>
+					<br />
+					<p><img src="../resimgs/v2-mac-1.jpg" alt="安装 V2rayU" data-origin="../resimgs/v2-mac-1.jpg" /></p>
+					<p>点击此图标，选择「订阅設置」。</p>
+					<br />
+					<p><img src="../resimgs/v2-mac-2.jpg" alt="安装 V2rayU" data-origin="../resimgs/v2-mac-2.jpg" /></p>
+					<p>在 地址 內填写刚刚复制的订阅地址,然后点击 添加 按钮</p> 
+					<br />
+					<p><img src="../resimgs/v2-mac-3.jpg" alt="安装 V2rayU" data-origin="../resimgs/v2-mac-3.jpg" /></p>
+					<p>添加按钮之后 在下面会显示当前的订阅地址，然后点击 更新 按钮 进行更新 节点</p>
+					<br />
+					<p><img src="../resimgs/v2-mac-4.jpg" alt="安装 V2rayU" data-origin="../resimgs/v2-mac-4.jpg" /></p>
+					<br />
+					<p>点击 更新  按钮 之后会自动跳转日记页面，会自动更新节点 </p>
+					<br />
+					<p><img src="../resimgs/v2-mac-5.jpg" alt="安装 V2rayU" data-origin="../resimgs/v2-mac-5.jpg" /></p>
+					<br />
+					<p>点击X 关闭，然后点击 服务器列表 内的 节点地址继续选择节点。</p>
+					<p><img src="../resimgs/v2-mac-6.jpg" alt="安装 V2rayU" data-origin="../resimgs/v2-mac-6.jpg" /></p>
+					<br />
+					<p>选择所需的代理模式，然后点击「Turn on v2ray-core ON」即可。</p>
+					<p><img src="../resimgs/v2-mac-7.jpg" alt="安装 V2rayU" data-origin="../resimgs/v2-mac-7.jpg" /></p>
+				</div>
+			</section>
+		</div>
+	</div>
+</section>
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-sm-3 footpage">
+				<h1>产品中心</h1>
+				<address>
+				<p><a href="https://www.fenghost.io/cart.php?gid=15" target="_blank">网络加速套餐</a></p>
+				<p><a href="https://www.fenghost.io/cart.php?gid=15" target="_blank">网络加速套餐</a></p>
+				</address>
+			</div>
+			<div class="col-lg-3 col-sm-3">
+				<h1>快速导航</h1>
+				<address>
+				<p><a href="https://www.fenghost.io/" target="_blank">客户中心</a></p>
+				<p><a href="https://www.fenghost.io/submitticket.php?step=2&deptid=1" target="_blank">提交工单</a></p>
+				
+				</address>
+			</div>
+			<div class="col-lg-3 col-sm-3">
+				<h1>联系我们</h1>
+				<address>
+				<p><a href="javascript:void(0);"> 枫叶网络欢迎您的咨询和使用</a></p>
+				<p><a href="javascript:void(0);"> 邮箱支持: support@fyzhuji.net</a></p>
+				
+				</address>
+			</div>
+			<div class="col-lg-3 col-sm-3">
+				<h1>联系我们</h1>
+				<address>
+					<p><a href="https://www.fenghost.io/affiliates.php" target="_blank">推介返利</a></p>
+					<p><a href="https://help.fengye.la/" target="_blank">帮助中心</a></p>
+				</address>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-12 col-sm-12" style="text-align:center;">
+		<p>Copyright © 2012-2019 枫叶网络. All Rights Reserved.<img src="https://cnzz.fengye.la/matomo.php?idsite=2&amp;rec=1" style="border:0" alt="" /></p>
+		
+	</div>
+</div>
+<div style="display:none">
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://cnzz.fengye.la/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+</div>
+</body>
+</html>
